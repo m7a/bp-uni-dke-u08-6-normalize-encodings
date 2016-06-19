@@ -1,0 +1,27 @@
+> Domäne
+TITEL DER ANWENDUNGSDOMÄNE
+
+>Charakteristische Beteiligte (ca. 3):
+BETEILIGTE1
+BETEILIGTE2
+BETEILIGTE3
+  
+>Charakteristische Daten (ca. 5):
+DATEN1
+DATEN2
+DATEN3
+DATEN4
+DATEN5
+
+>Charakteristische Geschäftsfälle (ca. 2):
+GESCHÄFTSFALL1
+GESCHÄFTSFALL2
+  
+>Charakteristische Abfragen (ca. 4):
+ABFRAGE1
+ABFRAGE2
+ABFRAGE3
+ABFRAGE4
+  
+>Notizen/Interessantes (optional):
+ 

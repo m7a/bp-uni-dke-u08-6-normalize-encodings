@@ -1,0 +1,13 @@
+> Domäne
+UTF-8
+
+>Charakteristische Beteiligte (ca. 0):
+  
+>Charakteristische Daten (ca. 0):
+
+>Charakteristische Geschäftsfälle (ca. 0):
+  
+>Charakteristische Abfragen (ca. 0):
+  
+>Notizen/Interessantes (optional):
+Gute Codierungen können hiermit umgehen: [äöüßÄÖÜ§€] CHECK
