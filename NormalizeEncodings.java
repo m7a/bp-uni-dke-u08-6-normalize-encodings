@@ -268,7 +268,7 @@ public class NormalizeEncodings {
 			// This hack allows parsing data of those people who
 			// just copied the PDF and thus have the line numbers
 			// in their submissions
-			l = l.replaceAll("^[0-9]+\t(.*)$", "$1");
+			l = l.replaceAll("^[0-9]+(\t(.*))?$", "$2");
 			
 			String lT = l.trim();
 			if(lT.length() == 0)
@@ -276,10 +276,13 @@ public class NormalizeEncodings {
 			if(lT.charAt(0) == '>') {
 				flush(out, recordID, type, currentResult);
 				type = getType(l);
-			} else if(l.charAt(0) == '\t' || l.charAt(0) == ' ') {
+			} else if(Character.isWhitespace(l.charAt(0))) {
 				currentResult.append(' ');
 				currentResult.append(lT);
 			} else {
+				// If `-` was used to create a list, cut it off
+				if(lT.charAt(0) == '-')
+					lT = lT.substring(1).trim();
 				flush(out, recordID, type, currentResult);
 				currentResult.append(lT);
 			}
