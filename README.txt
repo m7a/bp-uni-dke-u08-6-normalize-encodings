@@ -39,8 +39,8 @@ Then invoke the program as follows
 	$ java NormalizeEncodings test.zip result.txt
 
 See url(http://masysma.lima-city.de/37/how_to_start_java_programs.xhtml) if you
-need more with getting this to work, `NormalizedEncodings` is the main class
-here.
+need more help with getting this to work, `NormalizedEncodings` is the main
+class here.
 
 The result of the program execution will then be written to a new file called
 `result.txt` (existing files are overwritten without notice).
