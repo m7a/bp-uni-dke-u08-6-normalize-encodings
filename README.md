@@ -1,7 +1,7 @@
 ---
 section: 32
 x-masysma-name: uni/dke/u08/6
-title: UNI DKE U08/6: NormalizeEncodings  
+title: "UNI DKE U08/6: NormalizeEncodings"
 date: 2020/01/01 00:00:00
 lang: en-US
 author: ["Linux-Fan, Ma_Sys.ma (Ma_Sys.ma@web.de)"]
