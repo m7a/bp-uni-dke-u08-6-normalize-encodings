@@ -1,7 +1,20 @@
-NormalizeEncodings 1.0.0.0, Copyright (c) 2016 Ma_Sys.ma.
-For further info send an e-mail to Ma_Sys.ma@web.de.
-
---------------------------------------------------------------[ Introduction ]--
+---
+section: 32
+x-masysma-name: uni/dke/u08/6
+title: UNI DKE U08/6: NormalizeEncodings  
+date: 2020/01/01 00:00:00
+lang: en-US
+author: ["Linux-Fan, Ma_Sys.ma (Ma_Sys.ma@web.de)"]
+keywords: ["uni", "dke", "encoding"]
+x-masysma-version: 1.0.0
+x-masysma-repository: https://www.github.com/m7a/bp-uni-dke-u08-6-normalize-encodings
+x-masysma-owned: 1
+x-masysma-copyright: |
+  NormalizeEncodings 1.0.0.0, Copyright (c) 2016 Ma_Sys.ma.
+  For further info send an e-mail to Ma_Sys.ma@web.de.
+---
+Introduction
+============
 
 This program demonstrates some of the issues when working with heterogeneous
 text files which have different encodings, line endings and supply a set of
@@ -10,7 +23,8 @@ fixed fields sometimes in a slightly different writing.
 This was designed as a solution to an exercise presented at the TU Darmstadt's
 DKE course in summer 2016.
 
----------------------------------------------------------------[ Compilation ]--
+Compilation
+===========
 
 If any make-tool is available, you can compile this via
 
@@ -24,7 +38,8 @@ Otherwise invoke the Java compiler directly:
 
 This program requires Java 7 or higher (it has only been tested with Java 7).
 
----------------------------------------------------------------------[ Usage ]--
+Usage
+=====
 
 To make use of the program, you need to create a set of input text-files
 and make a ZIP-archive from them.
@@ -38,14 +53,15 @@ Then invoke the program as follows
 
 	$ java NormalizeEncodings test.zip result.txt
 
-See url(http://masysma.lima-city.de/37/how_to_start_java_programs.xhtml) if you
-need more help with getting this to work, `NormalizedEncodings` is the main
+See [how_to_start_java_programs(37)][../37/how_to_start_java_programs.xhtml] if
+you need more help with getting this to work, `NormalizedEncodings` is the main
 class here.
 
 The result of the program execution will then be written to a new file called
 `result.txt` (existing files are overwritten without notice).
 
--------------------------------------------------------------------[ Effects ]--
+Effects
+=======
 
 What is this program all about?
 
@@ -56,7 +72,7 @@ etc. The success of reading and processing all these files is demonstrated
 by writing all the files' contents to a result file which is encoded in UTF-8
 and consistently uses UNIX line-endings.
 
-In this concrete exercise, all data has to be in the text format ``defined''
+In this concrete exercise, all data has to be in the text format “defined”
 by `encoding_tests/vorlage.txt` which specifies six sections introduced
 with `>` having fixed names. Contents for these sections is written below
 that sections one entry per line. As this definition is rather informal and it
@@ -68,7 +84,8 @@ newlines, introduce bullet points, use different line-endings etc. Most of these
 differences are normalized by this solution to result in data in a consistent
 format specified in a later exercise.
 
---------------------------------------------------------------------[ Issues ]--
+Issues
+======
 
 Encoding is about the second-worst of these issues (the worst being -- of
 course -- handling dates and times correctly). Therefore, this solution is --
