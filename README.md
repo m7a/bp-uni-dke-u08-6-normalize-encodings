@@ -53,7 +53,7 @@ Then invoke the program as follows
 
 	$ java NormalizeEncodings test.zip result.txt
 
-See [how_to_start_java_programs(37)][../37/how_to_start_java_programs.xhtml] if
+See [how_to_start_java_programs(37)](../37/how_to_start_java_programs.xhtml) if
 you need more help with getting this to work, `NormalizedEncodings` is the main
 class here.
 
