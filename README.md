@@ -2,12 +2,13 @@
 section: 32
 x-masysma-name: uni/dke/u08/6
 title: "UNI DKE U08/6: NormalizeEncodings"
-date: 2020/01/01 00:00:00
+date: 2016/06/20 00:05:19
 lang: en-US
 author: ["Linux-Fan, Ma_Sys.ma (Ma_Sys.ma@web.de)"]
 keywords: ["uni", "dke", "encoding"]
 x-masysma-version: 1.0.0
 x-masysma-repository: https://www.github.com/m7a/bp-uni-dke-u08-6-normalize-encodings
+x-masysma-website: https://masysma.lima-city.de/32/uni_dke_u08_6.xhtml
 x-masysma-owned: 1
 x-masysma-copyright: |
   NormalizeEncodings 1.0.0.0, Copyright (c) 2016 Ma_Sys.ma.
